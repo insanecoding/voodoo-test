@@ -3,6 +3,10 @@
   background: lightcyan;
 }
 
+.rangePicker {
+  display: block;
+}
+
 footer {
   min-height: 50px;
   background: PapayaWhip;
