@@ -5,7 +5,7 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
-    "prod": "yarn build && sirv build",
+    "prod": "sirv docs",
     "test": "web-test-runner \"src/**/*.test.tsx\"",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "prettify": "prettier --write src snowpack.config.js",

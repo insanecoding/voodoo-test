@@ -1,0 +1,7 @@
+.holder {
+  width: 100%;
+}
+
+.deeplyNestedPanel div {
+  color: rgba(0, 0, 0, 0.85) !important;
+}

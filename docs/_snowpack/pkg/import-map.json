@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "antd/dist/antd.min.css": "./antd/dist/antd.min.css",
+    "antd/es/alert": "./antd/es/alert.js",
+    "antd/es/button": "./antd/es/button.js",
+    "antd/es/collapse": "./antd/es/collapse.js",
+    "antd/es/date-picker/generatePicker/generateRangePicker": "./antd/es/date-picker/generatePicker/generateRangePicker.js",
+    "antd/es/spin": "./antd/es/spin.js",
+    "date-fns": "./date-fns.js",
+    "rc-picker/lib/generate/dateFns": "./rc-picker/lib/generate/dateFns.js",
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "react-query": "./react-query.js"
+  }
+}

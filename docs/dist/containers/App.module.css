@@ -1,0 +1,45 @@
+.header {
+  background-color: #fff;
+  min-height: 64px;
+  border-bottom: 1px solid #e1e4e8;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 64px 0;
+
+  display: grid;
+  grid-row-gap: 40px;
+  row-gap: 40px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, minmax(25px, -webkit-min-content));
+  grid-template-rows: repeat(3, minmax(25px, min-content));
+
+  justify-items: center;
+  align-items: start;
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  .main {
+    width: 800px;
+  }
+}
+
+.rangePicker {
+  display: block;
+}
+
+.footer {
+  min-height: 64px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
