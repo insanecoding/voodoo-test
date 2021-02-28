@@ -16,3 +16,14 @@ export const createQuery = (data: Record<string, string | string[]>): string =>
       return `${encodeURIComponent(key)}=${encodeURIComponent(valueStr)}`;
     })
     .join('&');
+
+export const roundNumber = (
+  input: number,
+  decimalPlaces = 2,
+): number | null => {
+  if (!input) return null;
+  // https://www.jacklmoore.com/notes/rounding-in-javascript/
+  return Number(
+    `${Math.round(Number(`${input}e${decimalPlaces}`))}e-${decimalPlaces}`,
+  );
+};
