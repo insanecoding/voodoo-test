@@ -1,13 +1,40 @@
 .header {
-  min-height: 50px;
-  background: lightcyan;
+  background-color: #fff;
+  min-height: 64px;
+  border-bottom: 1px solid #e1e4e8;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 64px 0;
+
+  display: grid;
+  row-gap: 40px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, minmax(25px, min-content));
+  grid-template-areas:
+    'heading'
+    'form'
+    'table';
+
+  justify-items: center;
+  align-items: start;
 }
 
 .rangePicker {
   display: block;
 }
 
-footer {
-  min-height: 50px;
-  background: PapayaWhip;
+.footer {
+  min-height: 64px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

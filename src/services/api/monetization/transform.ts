@@ -1,3 +1,4 @@
+// todo: types
 export const transform = (data: any): any =>
   data.reduce(
     (acc: any, current: any) => {
