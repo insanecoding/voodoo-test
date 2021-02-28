@@ -17,13 +17,16 @@
   row-gap: 40px;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, minmax(25px, min-content));
-  grid-template-areas:
-    'heading'
-    'form'
-    'table';
 
   justify-items: center;
   align-items: start;
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  .main {
+    width: 800px;
+  }
 }
 
 .rangePicker {

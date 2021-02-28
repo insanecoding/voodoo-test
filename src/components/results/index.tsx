@@ -31,6 +31,7 @@ const Results = (data: any) => {
                           )}`}
                           key={deeplyNested.name}
                           collapsible="disabled"
+                          className={classes.deeplyNestedPanel}
                         />
                       ),
                     )}
